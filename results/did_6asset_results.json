@@ -1,0 +1,10 @@
+{
+  "design": "6-altcoin DiD: treated=ETH,XRP; control=LTC,DOGE,SOL,ADA",
+  "outcome": "DM(MSCA vs LSTM)",
+  "pre": "P2",
+  "post": "P3",
+  "observed_DiD": 1.3973366999090164,
+  "n_permutations": 15,
+  "one_sided_p": 0.06666666666666667,
+  "note": "observed DiD = max over all 15 permutations; p = 1/15 is the minimum achievable for this design"
+}

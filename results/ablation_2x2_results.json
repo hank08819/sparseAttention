@@ -1,0 +1,162 @@
+{
+  "BTC_P1": {
+    "C11_sparse_multi": {
+      "NMSE": 0.04736412954704642
+    },
+    "C01_soft_multi": {
+      "NMSE": 0.04798619248103445,
+      "DM_stat_vs_full": -1.3172980176908502,
+      "DM_pval_vs_full": 0.18791410050917268
+    },
+    "C10_sparse_single": {
+      "NMSE": 0.048521803485013164,
+      "DM_stat_vs_full": -1.137019592764916,
+      "DM_pval_vs_full": 0.2556883794087317
+    },
+    "C00_soft_single": {
+      "NMSE": 0.04785119080960128,
+      "DM_stat_vs_full": -0.6775302014604557,
+      "DM_pval_vs_full": 0.498160683467181
+    }
+  },
+  "BTC_P2": {
+    "C11_sparse_multi": {
+      "NMSE": 0.08010465510982404
+    },
+    "C01_soft_multi": {
+      "NMSE": 0.07425810665660039,
+      "DM_stat_vs_full": 6.202208155670237,
+      "DM_pval_vs_full": 6.907903138397842e-10
+    },
+    "C10_sparse_single": {
+      "NMSE": 0.07926107049819496,
+      "DM_stat_vs_full": 2.1992019011999515,
+      "DM_pval_vs_full": 0.02799191845049842
+    },
+    "C00_soft_single": {
+      "NMSE": 0.0831956529254815,
+      "DM_stat_vs_full": -7.399125443093233,
+      "DM_pval_vs_full": 2.1027624086400465e-13
+    }
+  },
+  "BTC_P3": {
+    "C11_sparse_multi": {
+      "NMSE": 0.28431941027583746
+    },
+    "C01_soft_multi": {
+      "NMSE": 0.27900222131703156,
+      "DM_stat_vs_full": 4.394450934076636,
+      "DM_pval_vs_full": 1.1760575399977213e-05
+    },
+    "C10_sparse_single": {
+      "NMSE": 0.27486543158821186,
+      "DM_stat_vs_full": 2.6366025450306116,
+      "DM_pval_vs_full": 0.008446946539803157
+    },
+    "C00_soft_single": {
+      "NMSE": 0.27989135901502565,
+      "DM_stat_vs_full": 4.50023238301813,
+      "DM_pval_vs_full": 7.227607920823331e-06
+    }
+  },
+  "LTC_P1": {
+    "C11_sparse_multi": {
+      "NMSE": 0.23286912562027332
+    },
+    "C01_soft_multi": {
+      "NMSE": 0.23852445432001043,
+      "DM_stat_vs_full": -5.361490303994469,
+      "DM_pval_vs_full": 9.370418396770219e-08
+    },
+    "C10_sparse_single": {
+      "NMSE": 0.23467054501254367,
+      "DM_stat_vs_full": -2.4240274735433025,
+      "DM_pval_vs_full": 0.015451900838341803
+    },
+    "C00_soft_single": {
+      "NMSE": 0.23385037948318552,
+      "DM_stat_vs_full": -3.345961459476413,
+      "DM_pval_vs_full": 0.0008376208766760485
+    }
+  },
+  "LTC_P2": {
+    "C11_sparse_multi": {
+      "NMSE": 0.4343294012850133
+    },
+    "C01_soft_multi": {
+      "NMSE": 0.4320293812244065,
+      "DM_stat_vs_full": 2.5713330808422947,
+      "DM_pval_vs_full": 0.010211427124909633
+    },
+    "C10_sparse_single": {
+      "NMSE": 0.432466334271153,
+      "DM_stat_vs_full": 0.783084471417547,
+      "DM_pval_vs_full": 0.433681799003067
+    },
+    "C00_soft_single": {
+      "NMSE": 0.43214576415725336,
+      "DM_stat_vs_full": 1.2347940367496981,
+      "DM_pval_vs_full": 0.21707032285802996
+    }
+  },
+  "LTC_P3": {
+    "C11_sparse_multi": {
+      "NMSE": 0.3586552421464817
+    },
+    "C01_soft_multi": {
+      "NMSE": 0.3589157847185235,
+      "DM_stat_vs_full": -0.05853443869944218,
+      "DM_pval_vs_full": 0.9533295053462325
+    },
+    "C10_sparse_single": {
+      "NMSE": 0.3576707632292449,
+      "DM_stat_vs_full": 0.8195317705605033,
+      "DM_pval_vs_full": 0.4125928612070793
+    },
+    "C00_soft_single": {
+      "NMSE": 0.35840248443413175,
+      "DM_stat_vs_full": 0.3309732678274359,
+      "DM_pval_vs_full": 0.7407036559618163
+    }
+  },
+  "BCH_P1": {
+    "C11_sparse_multi": {
+      "NMSE": 0.1386416420847238
+    },
+    "C01_soft_multi": {
+      "NMSE": 0.13825900755720455,
+      "DM_stat_vs_full": 1.3281747997539632,
+      "DM_pval_vs_full": 0.18429647441958408
+    },
+    "C10_sparse_single": {
+      "NMSE": 0.14620696122822557,
+      "DM_stat_vs_full": -3.51735352708517,
+      "DM_pval_vs_full": 0.00044718571044155553
+    },
+    "C00_soft_single": {
+      "NMSE": 0.13992274397449578,
+      "DM_stat_vs_full": -1.4815085883684704,
+      "DM_pval_vs_full": 0.13865415833798167
+    }
+  },
+  "BCH_P2": {
+    "C11_sparse_multi": {
+      "NMSE": 0.2317989550202842
+    },
+    "C01_soft_multi": {
+      "NMSE": 0.23100467032786548,
+      "DM_stat_vs_full": 1.545236409180288,
+      "DM_pval_vs_full": 0.12246724945710019
+    },
+    "C10_sparse_single": {
+      "NMSE": 0.23106579999277344,
+      "DM_stat_vs_full": 1.5115028500945011,
+      "DM_pval_vs_full": 0.13083828604860614
+    },
+    "C00_soft_single": {
+      "NMSE": 0.23178974855965098,
+      "DM_stat_vs_full": 0.00029466627250070924,
+      "DM_pval_vs_full": 0.9997649234270478
+    }
+  }
+}

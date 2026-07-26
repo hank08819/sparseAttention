@@ -1,0 +1,546 @@
+{
+  "LTC_P1": {
+    "rho_BTC": 0.549529,
+    "category": "C1_BTC_family"
+  },
+  "LTC_P2": {
+    "rho_BTC": 0.675251,
+    "category": "C1_BTC_family"
+  },
+  "LTC_P3": {
+    "rho_BTC": 0.520799,
+    "category": "C1_BTC_family"
+  },
+  "BCH_P1": {
+    "rho_BTC": 0.574088,
+    "category": "C1_BTC_family"
+  },
+  "BCH_P2": {
+    "rho_BTC": 0.110863,
+    "category": "C1_BTC_family"
+  },
+  "BCH_P3": {
+    "rho_BTC": 0.457278,
+    "category": "C1_BTC_family"
+  },
+  "DOGE_P1": {
+    "rho_BTC": 0.664184,
+    "category": "C1_BTC_family"
+  },
+  "DOGE_P2": {
+    "rho_BTC": 0.647998,
+    "category": "C1_BTC_family"
+  },
+  "DOGE_P3": {
+    "rho_BTC": 0.605584,
+    "category": "C1_BTC_family"
+  },
+  "SHIB_P1": {
+    "rho_BTC": 0.577227,
+    "category": "C1_BTC_family"
+  },
+  "SHIB_P2": {
+    "rho_BTC": 0.54441,
+    "category": "C1_BTC_family"
+  },
+  "SHIB_P3": {
+    "rho_BTC": 0.69999,
+    "category": "C1_BTC_family"
+  },
+  "XRP_P1": {
+    "rho_BTC": 0.097365,
+    "category": "C1_BTC_family"
+  },
+  "XRP_P2": {
+    "rho_BTC": 0.53022,
+    "category": "C1_BTC_family"
+  },
+  "XRP_P3": {
+    "rho_BTC": 0.649243,
+    "category": "C1_BTC_family"
+  },
+  "ETH_P1": {
+    "rho_BTC": 0.841298,
+    "category": "C2_ETH_ecosystem"
+  },
+  "ETH_P2": {
+    "rho_BTC": 0.791169,
+    "category": "C2_ETH_ecosystem"
+  },
+  "ETH_P3": {
+    "rho_BTC": 0.870549,
+    "category": "C2_ETH_ecosystem"
+  },
+  "MATIC_P1": {
+    "rho_BTC": 0.76121,
+    "category": "C2_ETH_ecosystem"
+  },
+  "MATIC_P2": {
+    "rho_BTC": 0.671896,
+    "category": "C2_ETH_ecosystem"
+  },
+  "MATIC_P3": {
+    "rho_BTC": 0.754714,
+    "category": "C2_ETH_ecosystem"
+  },
+  "ARB_P2": {
+    "rho_BTC": 0.650283,
+    "category": "C2_ETH_ecosystem"
+  },
+  "ARB_P3": {
+    "rho_BTC": 0.740796,
+    "category": "C2_ETH_ecosystem"
+  },
+  "OP_P1": {
+    "rho_BTC": 0.470522,
+    "category": "C2_ETH_ecosystem"
+  },
+  "OP_P2": {
+    "rho_BTC": 0.63864,
+    "category": "C2_ETH_ecosystem"
+  },
+  "OP_P3": {
+    "rho_BTC": 0.598735,
+    "category": "C2_ETH_ecosystem"
+  },
+  "LRC_P1": {
+    "rho_BTC": 0.565854,
+    "category": "C2_ETH_ecosystem"
+  },
+  "LRC_P2": {
+    "rho_BTC": 0.508766,
+    "category": "C2_ETH_ecosystem"
+  },
+  "LRC_P3": {
+    "rho_BTC": 0.661725,
+    "category": "C2_ETH_ecosystem"
+  },
+  "SOL_P1": {
+    "rho_BTC": 0.625657,
+    "category": "C3_Alt_L1"
+  },
+  "SOL_P2": {
+    "rho_BTC": 0.6223,
+    "category": "C3_Alt_L1"
+  },
+  "SOL_P3": {
+    "rho_BTC": 0.719598,
+    "category": "C3_Alt_L1"
+  },
+  "ADA_P1": {
+    "rho_BTC": 0.721316,
+    "category": "C3_Alt_L1"
+  },
+  "ADA_P2": {
+    "rho_BTC": 0.669993,
+    "category": "C3_Alt_L1"
+  },
+  "ADA_P3": {
+    "rho_BTC": 0.750028,
+    "category": "C3_Alt_L1"
+  },
+  "AVAX_P1": {
+    "rho_BTC": 0.659978,
+    "category": "C3_Alt_L1"
+  },
+  "AVAX_P2": {
+    "rho_BTC": 0.583236,
+    "category": "C3_Alt_L1"
+  },
+  "AVAX_P3": {
+    "rho_BTC": 0.688534,
+    "category": "C3_Alt_L1"
+  },
+  "DOT_P1": {
+    "rho_BTC": 0.684964,
+    "category": "C3_Alt_L1"
+  },
+  "DOT_P2": {
+    "rho_BTC": 0.694376,
+    "category": "C3_Alt_L1"
+  },
+  "DOT_P3": {
+    "rho_BTC": 0.74781,
+    "category": "C3_Alt_L1"
+  },
+  "ATOM_P1": {
+    "rho_BTC": 0.667664,
+    "category": "C3_Alt_L1"
+  },
+  "ATOM_P2": {
+    "rho_BTC": 0.662412,
+    "category": "C3_Alt_L1"
+  },
+  "ATOM_P3": {
+    "rho_BTC": 0.693634,
+    "category": "C3_Alt_L1"
+  },
+  "NEAR_P1": {
+    "rho_BTC": 0.632956,
+    "category": "C3_Alt_L1"
+  },
+  "NEAR_P2": {
+    "rho_BTC": 0.552213,
+    "category": "C3_Alt_L1"
+  },
+  "NEAR_P3": {
+    "rho_BTC": 0.58117,
+    "category": "C3_Alt_L1"
+  },
+  "ALGO_P1": {
+    "rho_BTC": 0.64679,
+    "category": "C3_Alt_L1"
+  },
+  "ALGO_P2": {
+    "rho_BTC": 0.513741,
+    "category": "C3_Alt_L1"
+  },
+  "ALGO_P3": {
+    "rho_BTC": 0.675086,
+    "category": "C3_Alt_L1"
+  },
+  "ICP_P1": {
+    "rho_BTC": 0.498372,
+    "category": "C3_Alt_L1"
+  },
+  "ICP_P2": {
+    "rho_BTC": 0.505594,
+    "category": "C3_Alt_L1"
+  },
+  "ICP_P3": {
+    "rho_BTC": 0.393305,
+    "category": "C3_Alt_L1"
+  },
+  "HBAR_P1": {
+    "rho_BTC": 0.565608,
+    "category": "C3_Alt_L1"
+  },
+  "HBAR_P2": {
+    "rho_BTC": 0.573822,
+    "category": "C3_Alt_L1"
+  },
+  "HBAR_P3": {
+    "rho_BTC": 0.661224,
+    "category": "C3_Alt_L1"
+  },
+  "VET_P2": {
+    "rho_BTC": 0.486036,
+    "category": "C3_Alt_L1"
+  },
+  "VET_P3": {
+    "rho_BTC": 0.68203,
+    "category": "C3_Alt_L1"
+  },
+  "APT_P1": {
+    "rho_BTC": 0.364201,
+    "category": "C3_Alt_L1"
+  },
+  "APT_P2": {
+    "rho_BTC": 0.355945,
+    "category": "C3_Alt_L1"
+  },
+  "APT_P3": {
+    "rho_BTC": 0.355663,
+    "category": "C3_Alt_L1"
+  },
+  "LINK_P1": {
+    "rho_BTC": 0.649565,
+    "category": "C4_DeFi"
+  },
+  "LINK_P2": {
+    "rho_BTC": 0.571874,
+    "category": "C4_DeFi"
+  },
+  "LINK_P3": {
+    "rho_BTC": 0.694823,
+    "category": "C4_DeFi"
+  },
+  "AAVE_P1": {
+    "rho_BTC": 0.616868,
+    "category": "C4_DeFi"
+  },
+  "AAVE_P2": {
+    "rho_BTC": 0.571821,
+    "category": "C4_DeFi"
+  },
+  "AAVE_P3": {
+    "rho_BTC": 0.711793,
+    "category": "C4_DeFi"
+  },
+  "UNI_P1": {
+    "rho_BTC": 0.610783,
+    "category": "C4_DeFi"
+  },
+  "UNI_P2": {
+    "rho_BTC": 0.608445,
+    "category": "C4_DeFi"
+  },
+  "UNI_P3": {
+    "rho_BTC": 0.680956,
+    "category": "C4_DeFi"
+  },
+  "MKR_P1": {
+    "rho_BTC": 0.473873,
+    "category": "C4_DeFi"
+  },
+  "MKR_P2": {
+    "rho_BTC": 0.482123,
+    "category": "C4_DeFi"
+  },
+  "MKR_P3": {
+    "rho_BTC": 0.481847,
+    "category": "C4_DeFi"
+  },
+  "CRV_P1": {
+    "rho_BTC": 0.481996,
+    "category": "C4_DeFi"
+  },
+  "CRV_P2": {
+    "rho_BTC": 0.392287,
+    "category": "C4_DeFi"
+  },
+  "CRV_P3": {
+    "rho_BTC": 0.504527,
+    "category": "C4_DeFi"
+  },
+  "COMP_P1": {
+    "rho_BTC": 0.523966,
+    "category": "C4_DeFi"
+  },
+  "COMP_P2": {
+    "rho_BTC": 0.497265,
+    "category": "C4_DeFi"
+  },
+  "COMP_P3": {
+    "rho_BTC": 0.638047,
+    "category": "C4_DeFi"
+  },
+  "SNX_P1": {
+    "rho_BTC": 0.396943,
+    "category": "C4_DeFi"
+  },
+  "SNX_P2": {
+    "rho_BTC": 0.434094,
+    "category": "C4_DeFi"
+  },
+  "SNX_P3": {
+    "rho_BTC": 0.542762,
+    "category": "C4_DeFi"
+  },
+  "GRT_P1": {
+    "rho_BTC": 0.466403,
+    "category": "C4_DeFi"
+  },
+  "GRT_P2": {
+    "rho_BTC": 0.474358,
+    "category": "C4_DeFi"
+  },
+  "GRT_P3": {
+    "rho_BTC": 0.65113,
+    "category": "C4_DeFi"
+  },
+  "SUSHI_P1": {
+    "rho_BTC": 0.446628,
+    "category": "C4_DeFi"
+  },
+  "SUSHI_P2": {
+    "rho_BTC": 0.502942,
+    "category": "C4_DeFi"
+  },
+  "SUSHI_P3": {
+    "rho_BTC": 0.592441,
+    "category": "C4_DeFi"
+  },
+  "YFI_P1": {
+    "rho_BTC": 0.501684,
+    "category": "C4_DeFi"
+  },
+  "YFI_P2": {
+    "rho_BTC": 0.519258,
+    "category": "C4_DeFi"
+  },
+  "YFI_P3": {
+    "rho_BTC": 0.571826,
+    "category": "C4_DeFi"
+  },
+  "BAL_P1": {
+    "rho_BTC": 0.283517,
+    "category": "C4_DeFi"
+  },
+  "BAL_P2": {
+    "rho_BTC": 0.291776,
+    "category": "C4_DeFi"
+  },
+  "BAL_P3": {
+    "rho_BTC": 0.296016,
+    "category": "C4_DeFi"
+  },
+  "1INCH_P1": {
+    "rho_BTC": 0.341099,
+    "category": "C4_DeFi"
+  },
+  "1INCH_P2": {
+    "rho_BTC": 0.213445,
+    "category": "C4_DeFi"
+  },
+  "1INCH_P3": {
+    "rho_BTC": 0.408178,
+    "category": "C4_DeFi"
+  },
+  "EOS_P1": {
+    "rho_BTC": 0.568131,
+    "category": "C5_Speculative"
+  },
+  "EOS_P2": {
+    "rho_BTC": 0.50918,
+    "category": "C5_Speculative"
+  },
+  "EOS_P3": {
+    "rho_BTC": 0.595493,
+    "category": "C5_Speculative"
+  },
+  "XTZ_P1": {
+    "rho_BTC": 0.549295,
+    "category": "C5_Speculative"
+  },
+  "XTZ_P2": {
+    "rho_BTC": 0.426983,
+    "category": "C5_Speculative"
+  },
+  "XTZ_P3": {
+    "rho_BTC": 0.607973,
+    "category": "C5_Speculative"
+  },
+  "MANA_P1": {
+    "rho_BTC": 0.668014,
+    "category": "C5_Speculative"
+  },
+  "MANA_P2": {
+    "rho_BTC": 0.46697,
+    "category": "C5_Speculative"
+  },
+  "MANA_P3": {
+    "rho_BTC": 0.651525,
+    "category": "C5_Speculative"
+  },
+  "SAND_P1": {
+    "rho_BTC": 0.602374,
+    "category": "C5_Speculative"
+  },
+  "SAND_P2": {
+    "rho_BTC": 0.586011,
+    "category": "C5_Speculative"
+  },
+  "SAND_P3": {
+    "rho_BTC": 0.670825,
+    "category": "C5_Speculative"
+  },
+  "AXS_P1": {
+    "rho_BTC": 0.43085,
+    "category": "C5_Speculative"
+  },
+  "AXS_P2": {
+    "rho_BTC": 0.280918,
+    "category": "C5_Speculative"
+  },
+  "AXS_P3": {
+    "rho_BTC": 0.588902,
+    "category": "C5_Speculative"
+  },
+  "APE_P1": {
+    "rho_BTC": 0.480155,
+    "category": "C5_Speculative"
+  },
+  "APE_P2": {
+    "rho_BTC": 0.478862,
+    "category": "C5_Speculative"
+  },
+  "APE_P3": {
+    "rho_BTC": 0.663701,
+    "category": "C5_Speculative"
+  },
+  "ENJ_P1": {
+    "rho_BTC": 0.338238,
+    "category": "C5_Speculative"
+  },
+  "ENJ_P2": {
+    "rho_BTC": 0.188895,
+    "category": "C5_Speculative"
+  },
+  "ENJ_P3": {
+    "rho_BTC": 0.43488,
+    "category": "C5_Speculative"
+  },
+  "CHZ_P1": {
+    "rho_BTC": 0.519688,
+    "category": "C5_Speculative"
+  },
+  "CHZ_P2": {
+    "rho_BTC": 0.292539,
+    "category": "C5_Speculative"
+  },
+  "CHZ_P3": {
+    "rho_BTC": 0.523165,
+    "category": "C5_Speculative"
+  },
+  "BAT_P1": {
+    "rho_BTC": 0.469933,
+    "category": "C5_Speculative"
+  },
+  "BAT_P2": {
+    "rho_BTC": 0.366772,
+    "category": "C5_Speculative"
+  },
+  "BAT_P3": {
+    "rho_BTC": 0.537058,
+    "category": "C5_Speculative"
+  },
+  "ZRX_P1": {
+    "rho_BTC": 0.403563,
+    "category": "C5_Speculative"
+  },
+  "ZRX_P2": {
+    "rho_BTC": 0.324327,
+    "category": "C5_Speculative"
+  },
+  "ZRX_P3": {
+    "rho_BTC": 0.325521,
+    "category": "C5_Speculative"
+  },
+  "ANKR_P1": {
+    "rho_BTC": 0.402077,
+    "category": "C5_Speculative"
+  },
+  "ANKR_P2": {
+    "rho_BTC": 0.377901,
+    "category": "C5_Speculative"
+  },
+  "ANKR_P3": {
+    "rho_BTC": 0.509895,
+    "category": "C5_Speculative"
+  },
+  "OXT_P1": {
+    "rho_BTC": 0.098161,
+    "category": "C5_Speculative"
+  },
+  "OXT_P2": {
+    "rho_BTC": 0.285625,
+    "category": "C5_Speculative"
+  },
+  "OXT_P3": {
+    "rho_BTC": 0.437555,
+    "category": "C5_Speculative"
+  },
+  "NMR_P1": {
+    "rho_BTC": 0.171926,
+    "category": "C5_Speculative"
+  },
+  "NMR_P2": {
+    "rho_BTC": 0.281466,
+    "category": "C5_Speculative"
+  },
+  "NMR_P3": {
+    "rho_BTC": 0.505532,
+    "category": "C5_Speculative"
+  }
+}

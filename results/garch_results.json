@@ -1,0 +1,107 @@
+{
+  "BTC_P1": {
+    "GARCH_NMSE": 0.0462,
+    "MSCA_NMSE": 0.0473,
+    "DM_stat": 1.789,
+    "DM_pval": 0.0738,
+    "sig": "ns"
+  },
+  "BTC_P2": {
+    "GARCH_NMSE": 0.0712,
+    "MSCA_NMSE": 0.0764,
+    "DM_stat": 1.98,
+    "DM_pval": 0.0479,
+    "sig": "*"
+  },
+  "BTC_P3": {
+    "GARCH_NMSE": 0.2703,
+    "MSCA_NMSE": 0.2793,
+    "DM_stat": 2.162,
+    "DM_pval": 0.0307,
+    "sig": "*"
+  },
+  "ETH_P1": {
+    "GARCH_NMSE": 0.0655,
+    "MSCA_NMSE": 0.0657,
+    "DM_stat": 0.256,
+    "DM_pval": 0.798,
+    "sig": "ns"
+  },
+  "ETH_P2": {
+    "GARCH_NMSE": 0.2297,
+    "MSCA_NMSE": 0.2339,
+    "DM_stat": 0.802,
+    "DM_pval": 0.4226,
+    "sig": "ns"
+  },
+  "ETH_P3": {
+    "GARCH_NMSE": 0.1413,
+    "MSCA_NMSE": 0.1432,
+    "DM_stat": 1.352,
+    "DM_pval": 0.1765,
+    "sig": "ns"
+  },
+  "XRP_P1": {
+    "GARCH_NMSE": 0.1201,
+    "MSCA_NMSE": 0.1218,
+    "DM_stat": 0.792,
+    "DM_pval": 0.4283,
+    "sig": "ns"
+  },
+  "XRP_P2": {
+    "GARCH_NMSE": 0.3488,
+    "MSCA_NMSE": 0.3493,
+    "DM_stat": 0.245,
+    "DM_pval": 0.8068,
+    "sig": "ns"
+  },
+  "XRP_P3": {
+    "GARCH_NMSE": 0.1664,
+    "MSCA_NMSE": 0.171,
+    "DM_stat": 2.019,
+    "DM_pval": 0.0437,
+    "sig": "*"
+  },
+  "LTC_P1": {
+    "GARCH_NMSE": 0.2194,
+    "MSCA_NMSE": 0.2306,
+    "DM_stat": 2.039,
+    "DM_pval": 0.0416,
+    "sig": "*"
+  },
+  "LTC_P2": {
+    "GARCH_NMSE": 0.4297,
+    "MSCA_NMSE": 0.4355,
+    "DM_stat": 1.039,
+    "DM_pval": 0.2988,
+    "sig": "ns"
+  },
+  "LTC_P3": {
+    "GARCH_NMSE": 0.3597,
+    "MSCA_NMSE": 0.3597,
+    "DM_stat": -0.04,
+    "DM_pval": 0.968,
+    "sig": "ns"
+  },
+  "DOGE_P1": {
+    "GARCH_NMSE": 0.1322,
+    "MSCA_NMSE": 0.131,
+    "DM_stat": -1.198,
+    "DM_pval": 0.2309,
+    "sig": "ns"
+  },
+  "DOGE_P2": {
+    "GARCH_NMSE": 0.4175,
+    "MSCA_NMSE": 0.4216,
+    "DM_stat": 0.812,
+    "DM_pval": 0.4168,
+    "sig": "ns"
+  },
+  "DOGE_P3": {
+    "GARCH_NMSE": 0.2843,
+    "MSCA_NMSE": 0.284,
+    "DM_stat": -0.205,
+    "DM_pval": 0.8377,
+    "sig": "ns"
+  }
+}

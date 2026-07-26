@@ -1,0 +1,72 @@
+{
+  "C1_BTC_family": {
+    "vs_LSTM": {
+      "wins": 5,
+      "losses": 0,
+      "total": 18,
+      "mean_DM": -1.2108801646072889
+    },
+    "vs_GRU": {
+      "wins": 2,
+      "losses": 0,
+      "total": 18,
+      "mean_DM": -0.5154013547103643
+    }
+  },
+  "C2_ETH_ecosystem": {
+    "vs_LSTM": {
+      "wins": 5,
+      "losses": 0,
+      "total": 14,
+      "mean_DM": -1.30475393282927
+    },
+    "vs_GRU": {
+      "wins": 4,
+      "losses": 0,
+      "total": 14,
+      "mean_DM": -1.1327986273753186
+    }
+  },
+  "C3_Alt_L1": {
+    "vs_LSTM": {
+      "wins": 7,
+      "losses": 1,
+      "total": 32,
+      "mean_DM": -0.6297198701385255
+    },
+    "vs_GRU": {
+      "wins": 5,
+      "losses": 0,
+      "total": 32,
+      "mean_DM": -0.7872237312956181
+    }
+  },
+  "C4_DeFi": {
+    "vs_LSTM": {
+      "wins": 6,
+      "losses": 2,
+      "total": 36,
+      "mean_DM": -0.1451957817892454
+    },
+    "vs_GRU": {
+      "wins": 6,
+      "losses": 3,
+      "total": 36,
+      "mean_DM": -0.6168012686093117
+    }
+  },
+  "C5_Speculative": {
+    "vs_LSTM": {
+      "wins": 8,
+      "losses": 1,
+      "total": 39,
+      "mean_DM": -0.49835872479331883
+    },
+    "vs_GRU": {
+      "wins": 6,
+      "losses": 2,
+      "total": 39,
+      "mean_DM": -0.6671569242977248
+    }
+  }
+}

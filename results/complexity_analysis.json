@@ -1,0 +1,50 @@
+{
+  "MSCA-SBiGRU (Full)": {
+    "params": 228866,
+    "s_per_epoch": 6.4339
+  },
+  "  ABL-A (Softmax)": {
+    "params": 228866,
+    "s_per_epoch": 6.4065
+  },
+  "  ABL-B (SingleScale)": {
+    "params": 228866,
+    "s_per_epoch": 4.9882
+  },
+  "  ABL-C (NoGate)": {
+    "params": 228866,
+    "s_per_epoch": 3.9908
+  },
+  "LSTM": {
+    "params": 52033,
+    "s_per_epoch": 2.8353
+  },
+  "GRU": {
+    "params": 39041,
+    "s_per_epoch": 2.0154
+  },
+  "iTransformer": {
+    "params": 69377,
+    "s_per_epoch": 1.4701
+  },
+  "PatchTST": {
+    "params": 69633,
+    "s_per_epoch": 4.7489
+  },
+  "Informer": {
+    "params": 69441,
+    "s_per_epoch": 3.2269
+  },
+  "TFT": {
+    "params": 127681,
+    "s_per_epoch": 4.0965
+  },
+  "N-BEATS": {
+    "params": 1660208,
+    "s_per_epoch": 2.1573
+  },
+  "TimesNet": {
+    "params": 70529,
+    "s_per_epoch": 9.7167
+  }
+}

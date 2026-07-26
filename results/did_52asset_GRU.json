@@ -1,0 +1,36 @@
+{
+  "design": "C1+C2 treated vs C5 control, vs GRU, P2\u2192P3",
+  "treated": [
+    "BTC",
+    "LTC",
+    "BCH",
+    "DOGE",
+    "SHIB",
+    "XRP",
+    "ETH",
+    "MATIC",
+    "ARB",
+    "OP",
+    "LRC"
+  ],
+  "control": [
+    "EOS",
+    "XTZ",
+    "MANA",
+    "SAND",
+    "AXS",
+    "APE",
+    "ENJ",
+    "CHZ",
+    "BAT",
+    "ZRX",
+    "ANKR",
+    "OXT",
+    "NMR"
+  ],
+  "n_permutations": 2496144,
+  "observed_DiD": -0.8842118783001651,
+  "p_left": 0.014677438481113268,
+  "p_right": 0.9853229621367998,
+  "p_two": 0.029354876962226537
+}

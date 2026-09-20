@@ -1,6 +1,6 @@
 # Mapping the Sparse-Attention Boundary for Cryptocurrency Forecasting
 
-Anonymous code and data for the AAAI-27 submission.
+Anonymous code and data for the ICLR submission.
 
 **Naming note.** For historical reasons the model is implemented under the
 internal identifier `MSCABiGRU` and appears as the key `MSCA` in result files.

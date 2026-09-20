@@ -1,4 +1,4 @@
-# Mapping the Sparse-Attention Boundary for Cryptocurrency Forecasting
+# WHEN DOES EXACT-ZERO ATTENTION HELP?
 
 Anonymous code and data for the ICLR submission.
 

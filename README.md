@@ -1,71 +1,81 @@
-# WHEN DOES EXACT-ZERO ATTENTION HELP?
+# When Does Exact-Zero Attention Help? — code and results
 
-Anonymous code and data for the ICLR submission.
+This repository is deliberately small. It carries every number the paper
+reports, the scripts that produced them, and the registration files that fixed
+the predictions in advance. It does not carry the raw exchange feed.
 
-**Naming note.** For historical reasons the model is implemented under the
-internal identifier `MSCABiGRU` and appears as the key `MSCA` in result files.
-It is the same model called **MISA** in the paper.
+## Where each claim in the paper is
 
-## Reproducing each result
+| claim in the paper | file |
+|---|---|
+| cross-section, 278 cells, +2.32% | `results/cross_section.json` |
+| size-matched time axis, 278 cells, +12.73% | `results/time_axis.json` |
+| FRED-MD, 242 cells, +15.69% | `results/fredmd.json` |
+| FRED-MD before the two cleaning amendments | `results/fredmd_preamendment.json` |
+| FRED-MD per-origin coordinates, 4,840 rows | `results/fredmd_perorigin.json` |
+| the training-mean reference, all three runs | `results/absolute_baseline.json` |
+| dependence-robust intervals | `results/dependence_robust_ci.json` |
+| exact convex references, B = 2,3,4,8 | `results/convex_reference_full*.json` |
+| convex references on the confirmatory cells | `results/confirmatory_convex_B*.json` |
+| representation vs optimization path | `results/optimization_probe.json` |
+| size-matched zeroed-position control | `results/zeroed_sizematched.json` |
+| which path carries the residual dependence | `results/zeroed_path_decomposition.json` |
+| constants behind the decision-rule figure | `results/rule_evaluation.json` |
+| confirmatory test of the frozen rule, 12 cells | `results/confirmatory_amended2.json` |
+| semi-synthetic discriminating test | `results/semisynthetic_test.json` |
+| controlled grid, 2,400 fits (B = 2 and B = 8) | `results/entmax_sweep.json`, `results/entmax_sweep_B8.json` |
 
-| Paper item | Script | Output |
-|---|---|---|
-| Controlled study + Fig. 1 (bottom) | `code/run_controlled.py` | `results/controlled_results.json`, `figures/mechanism_sweep.pdf` |
-| Phase map (Fig. 2) | `code/generate_phase_map.py` | `figures/fig_phase_map.pdf` |
-| Temporal robustness (AR(1), heavy tails) | `code/run_controlled_temporal.py` | `results/controlled_temporal.json` |
-| Neural phase map (main-text table) | `code/run_neural_phase_map.py` | `results/neural_phase_map.json` |
-| Neural phase-map LaTeX rows | `code/make_neural_table.py` | (prints table body from the JSON) |
-| Main 47-asset experiment | `code/run_52assets.py` | `results/expanded_results.json` |
-| Supplement CSV tables | `code/export_supplement_csv.py` | `results/expanded_crypto_139.csv`, `results/expanded_crypto_asset_summary.csv` |
-| 139-setting matched sparsemax-vs-softmax | `code/run_sparse_vs_soft_multiasset.py` | `results/sparse_vs_soft_multiasset.json` |
-| Normalization robustness (z-score) | `code/run_norm_ablation.py` | `results/norm_ablation_zscore.json` |
-| Injected-noise probe | `code/run_noise_injection.py` | `results/noise_injection.json` |
-| Score-separation penalty | `code/run_score_separation.py` | `results/score_separation.json` |
-| 2x2 matched factorial | `code/run_ablation_2x2.py` | `results/ablation_2x2_results.json` |
-| 10-seed matched contrast | `code/run_multiseed_matched.py` | `results/multiseed_matched.json` |
-| Matched neural ablation | `code/run_ablation.py` | `results/ablation_results.json` |
-| Transformer DM tests | `code/run_transformer_dm_52assets.py` | `results/transformer_dm_results.json` |
-| Boundary figures | `code/generate_negative_results_figs.py` | `figures/fig_injection_probe.pdf`, `figures/fig_category_gradient.pdf` |
+Every result file is a plain JSON keyed by cell. Each cell carries its
+prediction, its outcome, its per-origin errors and its coordinate, so every
+number in the paper can be recomputed from these files alone, with no data and
+no GPU.
 
-## Model and pipeline
+## Scripts
 
-- `code/model.py` — MISA architecture (BiGRU encoders, sparsemax temporal and
-  scale selection, gated cross-signal attention)
-- `code/sparsemax.py` — sparsemax (Martins and Astudillo 2016)
-- `code/features.py` — feature pipeline (correlation filter, PCA ranking)
-- `code/train.py` — trainer, early stopping, Harvey-corrected DM test, NMSE
+`package/misa_sparsity/` holds the model: the MISA encoder of Section 5, the
+sparsemax and alpha-entmax implementations, the feature builder, the trainer,
+and the three runners that produce the controlled grid, the boundary benchmark
+and the PatchTST normalization swap. Ten files, no more than the paper uses.
+Most scripts in `code/` import from it, so keep the two directories together.
+
+`code/` holds one script per experiment, named for the experiment. Each reads
+result files or raw panels by path and writes the JSON above. The two that a
+reader is most likely to want are `run_time_axis_control.py`, which is the
+matched control that isolates the geometry, and `run_dependence_robust_ci.py`,
+which recomputes every interval quoted in the paper from the shipped JSONs in
+under a minute.
+
+## Registrations
+
+`preregistration/` holds the five files that fixed predictions, decision rules
+and falsifiers before the runs they govern. Each records its amendments and its
+outcome as observed, including the criteria that were not met and the power
+calculation that accompanies them.
 
 ## Data
 
-`data/` ships a sample: BTC, ETH, and SAND five-minute OHLCV for the three
-30-day periods (P1 Nov 2022, P2 Oct 2023, P3 Mar 2024) and all nine hourly FX
-files. The full 47-asset benchmark (about 200 MB) regenerates with:
+`data/fred_md_current.csv` is the FRED-MD vintage used in the paper, downloaded
+2026-09-20. It is public and is shipped so that the macro results reproduce
+exactly rather than against a moving vintage.
 
-```bash
-cd data && python download_expanded.py   # public Coinbase REST API
+The cryptocurrency panel is a 205 MB five-minute exchange feed and is not
+redistributed here. The per-cell result files above contain the fitted errors
+for all 556 cryptocurrency cells, so every reported number is checkable without
+it. `run_cross_section.py` and `run_time_axis_control.py` take the panel by
+path and document the expected schema.
+
+## Reproducing the headline numbers without any data
+
+```
+python code/run_dependence_robust_ci.py
 ```
 
-Traffic uses the public METR-LA benchmark (Li et al. 2018), not redistributed.
+Scripts that refit a model need the package on the path:
 
-## Environment
-
-```bash
-pip install torch>=2.0 numpy pandas scikit-learn scipy matplotlib
+```
+PYTHONPATH=package:package/misa_sparsity python code/run_time_axis_control.py --predict-only
 ```
 
-CPU-only; every experiment sets its seeds explicitly (42-44 for the main
-tables, 42-51 for the 10-seed contrast, 0-19 for the controlled study).
-
-## Quick start
-
-```bash
-cd code
-python run_controlled.py --quick          # smoke test, ~1 minute
-python run_experiment.py \
-    --tgt ../data/BTC_5m_P2_20231001.csv \
-    --ca  ../data/ETH_5m_P2_20231001.csv  # one asset-period end-to-end
-```
-
-## License
-
-MIT.
+reads `results/cross_section.json`, `results/time_axis.json` and
+`results/fredmd.json` and prints the three mean relative gains and their
+intervals.

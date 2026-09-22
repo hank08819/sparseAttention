@@ -1,0 +1,50 @@
+[
+ {
+  "label": "cryptocurrency cross-section",
+  "origins": 5560,
+  "baseline_median": 1.1408688593436687,
+  "baseline_p05": 0.3103188440879934,
+  "baseline_p95": 4.628589626542632,
+  "soft_mse_median": 1.1966975843828371,
+  "spar_mse_median": 1.175188008343444,
+  "soft_ratio_median": 1.0311898785214524,
+  "spar_ratio_median": 1.0111526517921068,
+  "soft_beat": 0.22607913669064747,
+  "spar_beat": 0.3553956834532374,
+  "both": 1063,
+  "both_gain": 0.006354063478861595,
+  "both_win": 0.5682031984948259
+ },
+ {
+  "label": "cryptocurrency time axis, matched",
+  "origins": 5560,
+  "baseline_median": 1.0825564302884874,
+  "baseline_p05": 0.29347988862357555,
+  "baseline_p95": 4.495274009812831,
+  "soft_mse_median": 1.369714342276884,
+  "spar_mse_median": 1.2034888202280594,
+  "soft_ratio_median": 1.2084295473253683,
+  "spar_ratio_median": 1.0809090969210842,
+  "soft_beat": 0.022482014388489208,
+  "spar_beat": 0.0658273381294964,
+  "both": 38,
+  "both_gain": -0.005224281388357747,
+  "both_win": 0.3157894736842105
+ },
+ {
+  "label": "FRED-MD cross-section",
+  "origins": 4840,
+  "baseline_median": 0.9955867516467201,
+  "baseline_p05": 0.2605591207502614,
+  "baseline_p95": 4.579209509448517,
+  "soft_mse_median": 1.204930060360658,
+  "spar_mse_median": 0.969077766686922,
+  "soft_ratio_median": 1.1761623076018692,
+  "spar_ratio_median": 1.044923078386427,
+  "soft_beat": 0.31053719008264463,
+  "spar_beat": 0.4223140495867769,
+  "both": 1350,
+  "both_gain": 0.14772450566168377,
+  "both_win": 0.7518518518518519
+ }
+]

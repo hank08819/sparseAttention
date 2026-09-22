@@ -1,0 +1,98 @@
+{
+ "semi_m0_n128": {
+  "source": "semiconductor equities (daily)",
+  "m": 0,
+  "n_train": 128,
+  "ref_regime": "tie",
+  "ref_delta": 1.417051929131219e-07,
+  "ref_se": 0.0
+ },
+ "semi_m0_n1024": {
+  "source": "semiconductor equities (daily)",
+  "m": 0,
+  "n_train": 1024,
+  "ref_regime": "tie",
+  "ref_delta": 2.6410069686733095e-09,
+  "ref_se": 0.0
+ },
+ "semi_m8_n128": {
+  "source": "semiconductor equities (daily)",
+  "m": 8,
+  "n_train": 128,
+  "ref_regime": "tie",
+  "ref_delta": -8.631887238319535e-09,
+  "ref_se": 4.615732696801997e-09
+ },
+ "semi_m8_n1024": {
+  "source": "semiconductor equities (daily)",
+  "m": 8,
+  "n_train": 1024,
+  "ref_regime": "tie",
+  "ref_delta": 2.4924737607179282e-09,
+  "ref_se": 2.3560859260927815e-09
+ },
+ "semi_m24_n128": {
+  "source": "semiconductor equities (daily)",
+  "m": 24,
+  "n_train": 128,
+  "ref_regime": "tie",
+  "ref_delta": -6.151024138922878e-08,
+  "ref_se": 5.988201573707516e-09
+ },
+ "semi_m24_n1024": {
+  "source": "semiconductor equities (daily)",
+  "m": 24,
+  "n_train": 1024,
+  "ref_regime": "tie",
+  "ref_delta": -2.018266187508999e-09,
+  "ref_se": 9.646455633096392e-10
+ },
+ "ETTm_m0_n128": {
+  "source": "ETTm1 (15-min)",
+  "m": 0,
+  "n_train": 128,
+  "ref_regime": "tie",
+  "ref_delta": -1.854441857851441e-07,
+  "ref_se": 0.0
+ },
+ "ETTm_m0_n1024": {
+  "source": "ETTm1 (15-min)",
+  "m": 0,
+  "n_train": 1024,
+  "ref_regime": "tie",
+  "ref_delta": 4.4373726026947224e-08,
+  "ref_se": 0.0
+ },
+ "ETTm_m8_n128": {
+  "source": "ETTm1 (15-min)",
+  "m": 8,
+  "n_train": 128,
+  "ref_regime": "tie",
+  "ref_delta": -2.4883608584769233e-08,
+  "ref_se": 9.542320428591617e-09
+ },
+ "ETTm_m8_n1024": {
+  "source": "ETTm1 (15-min)",
+  "m": 8,
+  "n_train": 1024,
+  "ref_regime": "tie",
+  "ref_delta": 4.831638764080104e-09,
+  "ref_se": 1.0991879356985005e-09
+ },
+ "ETTm_m24_n128": {
+  "source": "ETTm1 (15-min)",
+  "m": 24,
+  "n_train": 128,
+  "ref_regime": "tie",
+  "ref_delta": -5.530003450715526e-08,
+  "ref_se": 1.030039955306794e-08
+ },
+ "ETTm_m24_n1024": {
+  "source": "ETTm1 (15-min)",
+  "m": 24,
+  "n_train": 1024,
+  "ref_regime": "tie",
+  "ref_delta": 1.959794862504971e-09,
+  "ref_se": 1.1282066002415863e-09
+ }
+}
